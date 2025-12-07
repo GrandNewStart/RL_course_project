@@ -15,3 +15,20 @@
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 실행
+
+```bash
+// Epsilon Decay 실험
+python run_epsilon_decay_exp.py
+
+// Hidden Dimension 실험
+python run_hidden_dim_exp.py
+
+// Seed 실험
+python run_seed_exp.py
+```
+
+## 모델 경로
+./checkpoints/{실험 이름}/dqn.pt
