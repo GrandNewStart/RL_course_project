@@ -1,4 +1,4 @@
-# Angry Birds RL (DQN)
+# 🐦 Angry Birds RL (DQN)
 
 간단한 Angry Birds 스타일 2D 투사체 발사 환경에서 DQN 에이전트를 학습시키는 프로젝트입니다.
 
@@ -10,6 +10,18 @@
 - 한 번 발사하면 에피소드가 종료되며, 탄착점과 타겟 사이의 거리에 따라 보상을 받습니다.
   - 반경 `hit_radius` 내부에 떨어지면 `+1.0`
   - 그 외에는 거리 비례 페널티 (최대 `-1.0`)
+
+
+
+## 기본 실행 환경
+- **파이썬**이 설치가 되어 있어야 합니다.
+- **Microsoft Visual C++ Redistributable**가 설치 되어 있어야 합니다.
+  - 설기 안 되어 있을 시,
+  - (1) https://aka.ms/vs/17/release/vc_redist.x64.exe
+  - (2) vc_redist.x64.exe 다운로드 후 실행
+  - (3) 설치 마법사에서 Next → 동의 → 설치
+  - (4) 설치 끝나면 재부팅 한 번 해주는 걸 추천
+
 
 ## 설치
 
@@ -32,6 +44,7 @@ python run_hidden_dim_exp.py
 // Seed 실험
 python run_seed_exp.py
 ```
+
 
 ## 모델 경로
 - [모든 모델](./checkpoints/)
