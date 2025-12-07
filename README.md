@@ -20,6 +20,9 @@ pip install -r requirements.txt
 ## 실행
 
 ```bash
+// 기본 모델
+python main_train.py
+
 // Epsilon Decay 실험
 python run_epsilon_decay_exp.py
 
@@ -31,6 +34,6 @@ python run_seed_exp.py
 ```
 
 ## 모델 경로
-- [./checkpoints/{실험 이름}/dqn.pt](./checkpoints/)
-
+- [모든 모델](./checkpoints/)
+- [기본 모델](./checkpoints/dqn_angry_birds.pt)
 - 실험 결과에 따른 최적의 모델: [checkpoints/seed42_eps3000_h64/dqn.pt](./checkpoints/seed42_eps3000_h64/dqn.pt)
