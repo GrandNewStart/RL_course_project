@@ -31,4 +31,4 @@ python run_seed_exp.py
 ```
 
 ## 모델 경로
-./checkpoints/{실험 이름}/dqn.pt
+[./checkpoints/{실험 이름}/dqn.pt](./checkpoints/)
