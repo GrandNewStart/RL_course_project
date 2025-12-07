@@ -36,4 +36,4 @@ python run_seed_exp.py
 ## 모델 경로
 - [모든 모델](./checkpoints/)
 - [기본 모델](./checkpoints/dqn_angry_birds.pt)
-- 실험 결과에 따른 최적의 모델: [checkpoints/seed42_eps3000_h64/dqn.pt](./checkpoints/seed42_eps3000_h64/dqn.pt)
+- [실험 결과에 따른 최적의 모델](./checkpoints/seed42_eps3000_h64/dqn.pt)
