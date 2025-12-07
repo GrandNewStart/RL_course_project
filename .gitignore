@@ -16,6 +16,5 @@ env/
 .vscode/
 
 # Project Specific (Outputs and Checkpoints)
-checkpoints/
 results/
 *.csv

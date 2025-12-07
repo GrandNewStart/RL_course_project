@@ -31,4 +31,6 @@ python run_seed_exp.py
 ```
 
 ## 모델 경로
-[./checkpoints/{실험 이름}/dqn.pt](./checkpoints/)
+- [./checkpoints/{실험 이름}/dqn.pt](./checkpoints/)
+
+- 실험 결과에 따른 최적의 모델: [checkpoints/seed42_eps3000_h64/dqn.pt](./checkpoints/seed42_eps3000_h64/dqn.pt)
