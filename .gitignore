@@ -1,0 +1,21 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Project Specific (Outputs and Checkpoints)
+checkpoints/
+results/
+*.csv
